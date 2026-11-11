@@ -10,10 +10,12 @@ Check out the live interactive web application here:
 
 ---
 
-## 📸 App Preview
-> *(Optional: To add a screenshot of your running app, take a picture of your browser, save it in this folder as `app_screenshot.png`, and it will render automatically!)*
 
----
+## 📸 App Preview
+
+| Input & Form View | Prediction Results View |
+| :---: | :---: |
+| ![App View 1](app_screenshot_1.png) | ![App View 2](app_screenshot_2.png) |
 
 ## 📊 Results & Model Performance
 
