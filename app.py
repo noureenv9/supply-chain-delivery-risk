@@ -120,15 +120,35 @@ html, body, [class*="css"] {
 
 /* Form labels */
 label, .stSelectbox label, .stNumberInput label, .stSlider label {
-    color: var(--navy-800) !important;
+    color: #E2E8F0 !important;
     font-weight: 500 !important;
     font-size: 0.875rem !important;
 }
 
 /* Inputs */
-div[data-baseweb="select"] > div,
-.stNumberInput input {
+div[data-baseweb="select"] > div {
+    background-color: var(--navy-800) !important;
+    border: 1px solid rgba(96,165,250,0.55) !important;
     border-radius: 8px !important;
+}
+[data-testid="stSelectbox"] [data-baseweb="select"] *,
+.stNumberInput input {
+    color: #F8FAFC !important;
+}
+.stNumberInput input {
+    background-color: var(--navy-800) !important;
+    border: 1px solid rgba(96,165,250,0.55) !important;
+    border-radius: 8px !important;
+}
+[data-testid="stSelectbox"] [role="listbox"],
+[data-testid="stSelectbox"] [role="option"] {
+    background-color: var(--navy-800) !important;
+    color: #F8FAFC !important;
+}
+[data-testid="stSelectbox"] [role="option"]:hover,
+[data-testid="stSelectbox"] [role="option"][aria-selected="true"] {
+    background-color: var(--navy-600) !important;
+    color: #FFFFFF !important;
 }
 
 /* Slider – navy theme */
