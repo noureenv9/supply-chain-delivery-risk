@@ -7,8 +7,9 @@ Late deliveries cost a distributor customer trust and money, and the team usuall
 ## 📸 App Preview
 
 | Input & Form View | Prediction Results View |
-| :---: | :---: |
-| ![App View 1](app_screenshot_1.png) | ![App View 2](app_screenshot_2.png) |
+## 📸 App Preview
+
+![App Preview](screenshot1.png)
 
 ---
 
